@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 50px;
+}
+
+.root {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  background-color: #9f998d;
+}
+
+.inner {
+  width: 70%;
+  height: 100%;
+}
+
+.title {
+  margin: 30px 0 5px 0;
+  font-family: "Noto Sans";
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.add {
+  display: flex;
+  align-items: center;
+}
+
+input {
+  margin-right: 10px;
+  padding: 0 15px 0 15px;
+  width: 330px;
+  height: 40px;
+  font-size: 16px;
+  border: none;
+  border-radius: 50px;
+}
+input:focus {
+  outline: none;
+}
+
+.plus {
+  width: 40px;
+  height: 40px;
+  font-size: 26px;
+  background-color: #ffffff;
+}
+.plus:hover {
+  color: #9f998d;
+}
+
+.border {
+  margin: 20px 0 30px 0;
+  width: 100%;
+  border-bottom: 2px dashed #000000;
+}
